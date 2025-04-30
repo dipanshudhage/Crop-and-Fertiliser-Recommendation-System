@@ -6,9 +6,9 @@ This repository contains the Week 1 submission for the *Skills4Future Internship
 *Crop and Fertilizer Recommendation System using Machine Learning*
 
 ## Files Included
-- Week1 Assessment.docx: Contains answers to basic ML concepts like Supervised Learning, Regression, and Classification.
-- Week1 Assessment.ipynb: A Google Colab notebook that imports necessary libraries, loads the dataset, and prints info.
-- csv sample.csv: The dataset used for the project, converted from Excel format.
+- Week1 Assessment.docx : Contains answers to basic ML concepts like Supervised Learning, Regression, and Classification.
+- Week1 Assessment.ipynb : A Google Colab notebook that imports necessary libraries, loads the dataset, and prints info.
+- csv sample.csv : The dataset used for the project, converted from Excel format.
 
 ## Tools & Technologies Used
 - Python
