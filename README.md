@@ -1,6 +1,6 @@
 # Week 1 - Crop and Fertilizer Recommendation System
 
-This repository contains the Week 1 submission for the *Skills4Future Internship Program* offered by *EDUNET Foundation in collaboration with AICTE*.
+This repository contains the Week 1 submission for the *Skills4Future Program* offered by *EDUNET Foundation in collaboration with AICTE*.
 
 ## Project Title
 *Crop and Fertilizer Recommendation System using Machine Learning*
@@ -20,7 +20,3 @@ This repository contains the Week 1 submission for the *Skills4Future Internship
 - Explained foundational Machine Learning concepts.
 - Loaded and explored a dataset using Python.
 - Organized and submitted project files through GitHub.
-
-## Internship Provider
-*EDUNET Foundation*  
-*AICTE – Skills4Future Program*
