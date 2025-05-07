@@ -75,8 +75,3 @@ All implementation is done in a **Google Colab notebook**, making it easy to run
 - Connect with **real-time weather data APIs** for dynamic predictions
 
 ---
-
-## 👨‍💻 Contributor
-
-- **[Your Name]**  
-- Submitted under **AICTE SKILL4FUTURE Program – Week 2**
