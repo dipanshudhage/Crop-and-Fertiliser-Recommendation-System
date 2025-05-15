@@ -80,6 +80,68 @@ This project is an AI-powered system designed to recommend the most suitable cro
 - **Pre-trained ML models** for prediction
 
 ---
+## 💻 How to Run the Project (Streamlit Version - Local)
+
+You can also run the project locally on your computer using **Streamlit**. Follow these steps:
+
+### 📥 Step 1: Download Files
+
+Download the following files into the **same folder**:
+- `app.py`
+- Model files:
+  - `model_crop.pkl`
+  - `label_encoder_crop.pkl`
+  - `model_fertilizer.pkl`
+  - `label_encoder_fertilizer.pkl`
+- `requirements.txt`
+
+> You can get them from the [GitHub repository](https://github.com/dipanshudhage/Skill4Future).
+
+---
+
+### ⚙️ Step 2: Install Python and Required Libraries
+
+1. Make sure **Python 3.8+** is installed.  
+   Download: [https://www.python.org/downloads](https://www.python.org/downloads)
+
+2. Open **Command Prompt** (or Terminal), navigate to your project folder, and run:
+
+```bash
+pip install -r requirements.txt
+```
+## ❗ If requirements.txt gives an error, install libraries manually:
+```bash
+pip install streamlit==1.15.0
+pip install pandas==1.4.2
+pip install scikit-learn==1.0.2
+pip install pytesseract==0.3.8
+pip install Pillow==8.4.0
+pip install PyMuPDF==1.19.4
+pip install joblib==1.1.0
+
+```
+##🚀 Step 3: Run the App
+Run the Streamlit application:
+```bash
+streamlit run app.py
+```
+It will open in your default browser. Upload a soil report and input values to get crop and fertilizer recommendations.
+
+##⚠️ Important:
+Make sure all .pkl model files are present in the same folder as app.py. Missing any of them will cause the app to fail.
+
+## 📌 Features
+Upload soil test reports in image or PDF format.
+Automatically extracts N, P, K values using OCR.
+Recommends the best crop and fertilizer based on input.
+Built using Streamlit, scikit-learn, and OCR tools.
+
+## 🛠️ Technologies Used
+Python, scikit-learn, pandas
+Tesseract OCR, PyMuPDF
+Streamlit and Google Colab
+Pre-trained ML models for prediction
+
 ## License
 This project is licensed under the MIT License.
 
@@ -87,7 +149,3 @@ This project is licensed under the MIT License.
 - **scikit-learn**: For machine learning model building.
 - **Streamlit**: For creating an interactive web interface.
 - **Pytesseract & PyMuPDF**: For extracting text from image and PDF files.
-
----
-
-Feel free to make adjustments based on your preferences! This README file provides a clear understanding of the project and guides users on how to set it up. Would you like help with anything else?
