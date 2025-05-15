@@ -29,26 +29,57 @@ The project contains the following important files and folders:
 - **Fertilizer Dataset**: Contains various fertilizers and their corresponding nitrogen, phosphorus, and potassium content.
 
 ## How to Run the Project
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/dipanshudhage/Skill4Future/tree/main/Week%203/Crop%20and%20Fertiliser%20Recommendation%20System.git
-    ```
+# 🌾 Crop and Fertilizer Recommendation System using Machine Learning
 
-2. **Install required dependencies**:
-    Navigate to the project directory and install the necessary libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
+This project is an AI-powered system designed to recommend the most suitable crops and fertilizers based on soil nutrient levels and environmental conditions. It uses machine learning models trained on real agricultural datasets and allows users to input data manually or extract it from soil report PDFs/images.
 
-3. **Run the Streamlit app**:
-    Start the Streamlit web application:
-    ```bash
-    streamlit run app.py
-    ```
+---
 
-4. **Upload soil test reports**:
-    You can upload images or PDFs of soil test reports, and the system will provide crop and fertilizer recommendations.
+## 🚀 Open in Google Colab
 
+<a href="https://colab.research.google.com/github/dipanshudhage/Skill4Future/blob/main/Week%203/Crop%20and%20Fertiliser%20Recommendation%20System/App/app.ipynb" target="_parent">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+---
+
+## 📌 Features
+
+- Upload soil test reports in **image or PDF format**.
+- Automatically extracts N, P, K values using OCR.
+- Recommends the best **crop** and **fertilizer** based on input.
+- Built using **Streamlit**, **scikit-learn**, and **OCR tools**.
+
+---
+
+## 🧠 How to Run the Project (Google Colab)
+
+1. Open the notebook using the **"Open in Colab"** button above.
+
+2. **Upload all required model files when prompted**:
+   - `model_crop.pkl`
+   - `label_encoder_crop.pkl`
+   - `model_fertilizer.pkl`
+   - `label_encoder_fertilizer.pkl`
+
+   ⚠️ **Warning:** You must upload **all four `.pkl` files** before running the prediction cells.
+
+3. Enter the soil and environmental values when prompted.
+
+4. The system will output:
+   - ✅ **Recommended Crop**
+   - ✅ **Recommended Fertilizer**
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**, **scikit-learn**, **pandas**
+- **Tesseract OCR**, **PyMuPDF**
+- **Google Colab** for runtime
+- **Pre-trained ML models** for prediction
+
+---
 ## License
 This project is licensed under the MIT License.
 
