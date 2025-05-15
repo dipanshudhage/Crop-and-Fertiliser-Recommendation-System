@@ -31,7 +31,7 @@ The project contains the following important files and folders:
 ## How to Run the Project
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/dipanshudhage/Crop-and-Fertiliser-Recommendation-System.git
+    git clone https://github.com/dipanshudhage/Skill4Future/tree/main/Week%203/Crop%20and%20Fertiliser%20Recommendation%20System.git
     ```
 
 2. **Install required dependencies**:
