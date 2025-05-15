@@ -127,7 +127,7 @@ streamlit run app.py
 ```
 It will open in your default browser. Upload a soil report and input values to get crop and fertilizer recommendations.
 
-##⚠️ Important:
+## ⚠️ Important:
 Make sure all .pkl model files are present in the same folder as app.py. Missing any of them will cause the app to fail.
 
 ## 📌 Features
