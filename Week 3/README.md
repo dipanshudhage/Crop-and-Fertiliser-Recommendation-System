@@ -35,25 +35,13 @@ This project is an AI-powered system designed to recommend the most suitable cro
 
 ---
 
-## 🚀 Open in Google Colab
+## 🚀 How to Run the Project (Google Colab)
 
 <a href="https://colab.research.google.com/github/dipanshudhage/Skill4Future/blob/main/Week%203/Crop%20and%20Fertiliser%20Recommendation%20System/App/app.ipynb" target="_parent">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 ---
-
-## 📌 Features
-
-- Upload soil test reports in **image or PDF format**.
-- Automatically extracts N, P, K values using OCR.
-- Recommends the best **crop** and **fertilizer** based on input.
-- Built using **Streamlit**, **scikit-learn**, and **OCR tools**.
-
----
-
-## 🧠 How to Run the Project (Google Colab)
-
 1. Open the notebook using the **"Open in Colab"** button above.
 
 2. **Upload all required model files when prompted**:
@@ -79,7 +67,15 @@ This project is an AI-powered system designed to recommend the most suitable cro
 - **Google Colab** for runtime
 - **Pre-trained ML models** for prediction
 
+## 📌 Features
+
+- Upload soil test reports in **image or PDF format**.
+- Automatically extracts N, P, K values using OCR.
+- Recommends the best **crop** and **fertilizer** based on input.
+- Built using **Streamlit**, **scikit-learn**, and **OCR tools**.
+
 ---
+
 ## 💻 How to Run the Project (Streamlit Version - Local)
 
 You can also run the project locally on your computer using **Streamlit**. Follow these steps:
