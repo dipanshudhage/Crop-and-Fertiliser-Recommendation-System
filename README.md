@@ -56,7 +56,3 @@ This project is licensed under the MIT License.
 - **scikit-learn**: For machine learning model building.
 - **Streamlit**: For creating an interactive web interface.
 - **Pytesseract & PyMuPDF**: For extracting text from image and PDF files.
-
----
-
-Feel free to make adjustments based on your preferences! This README file provides a clear understanding of the project and guides users on how to set it up. Would you like help with anything else?
